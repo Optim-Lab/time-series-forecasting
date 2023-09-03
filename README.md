@@ -1,6 +1,6 @@
 # time-series-forecasting
 
-### Tutorial repository for time series forecasting models
+### Tutorial repository for time series forecasting models(simplified version)
 
 Some models are revised for multivariate time series forecasting 
 
@@ -8,9 +8,11 @@ Some models are revised for multivariate time series forecasting
 
 - `seq2seq`  `NeurIPS 2014` [Sequence to Sequence Learning with Neural Network](https://arxiv.org/abs/1409.3215)
 
+- `SQF-RNN` `AISTAT 2019` [Probabilistic Forecasting with Spline Quantile Function RNNs](http://proceedings.mlr.press/v89/gasthaus19a/gasthaus19a.pdf)
+
 -  `TFT` `IJF 2019` [Temporal Fusion Transformer for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/pdf/1912.09363.pdf) ([official code](https://github.com/google-research/google-research/tree/master/tft))  
 
-- `PessTFT` Pessimistic TFT model to forecast extreme events by chulhongsung 
+- `PessTFT` Pessimistic TFT model to forecast extreme events
 
 - `DeepAR` `IJF 2020` [DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks](https://arxiv.org/pdf/1704.04110.pdf)  
 
@@ -20,15 +22,19 @@ Some models are revised for multivariate time series forecasting
 
 - `NeurIPS 2020` [Normalizing Kalman Filters for Multivariate Time Series Analysis](https://proceedings.neurips.cc/paper/2020/file/1f47cef5e38c952f94c5d61726027439-Supplemental.pdf) 
 
+- `ICML 2020` [Transformer Hawkes Process](https://arxiv.org/pdf/2002.09291.pdf) ([official code](https://github.com/SimiaoZuo/Transformer-Hawkes-Process)) 
+
 - `ICLR 2021` [N-BEATS: Neural Bais Expansion Analysis for Interpretable Time Series Forecasting ](https://arxiv.org/pdf/1905.10437.pdf) ([official code](https://github.com/ServiceNow/N-BEATS)) 
 
 - `ECMLPKDD 2022` [U-Net Inspired Transformer Architecture for Far Horizon Time Series Forecasting](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_943.pdf)([official code](https://github.com/18kiran12/Yformer-Time-Series-Forecasting)) 
 
 ### Generative model based
 
+- `GP-Copula` `NeurIPS 2019` [High-Dimensional Multivariate Forecasting with Low-Rank Gaussian Copula Processes](https://arxiv.org/pdf/1910.03002.pdf)
+
 - `ProTran` `NeurIPS 2021`  [Probabilistic Transformer for Time Series Analysis ](https://proceedings.neurips.cc/paper/2021/file/c68bd9055776bf38d8fc43c0ed283678-Paper.pdf) 
 
-- `ProTran_v2` ProTran model which contains known future inputs by chulhongsung 
+- `ProTran_v2` ProTran model which contains known future inputs
 
 - `AAAI 2021` [Temporal Latent Auto-Encoder: A Method for Probabilistic Multivariate Time Series Forecasting](https://arxiv.org/pdf/2101.10460.pdf)  
 
